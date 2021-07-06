@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
         department[j].classList.remove('hide');
       });
       selectOptions.classList.remove('select__items_open');
+      selectValue.classList.remove('select__value_open');
       selectCheck.setAttribute('data-state', '');
 
     });
