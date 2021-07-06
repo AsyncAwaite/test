@@ -1,0 +1,37 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1rem 3.1rem;
+  background: #fff;
+  z-index: 100;
+  &__logo {
+    flex: 0 0 $asideWidth;
+    position: relative;
+    margin-left: 3.1rem;
+  
+    &::after {
+      position: absolute;
+      bottom: -11px;
+      left: -62px;
+      content: '';
+      height: 29px;
+      width: 100%;
+      background: $mainColor;
+    }
+    &__link {
+      display: block;
+      img {
+        display: block;
+        max-width: 100%;
+        margin-left: 3.1rem;
+      }
+    }
+  }
+  &__nav {
+    margin-top: 0.8rem;
+  }
+}

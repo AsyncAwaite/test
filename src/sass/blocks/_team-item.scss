@@ -1,0 +1,23 @@
+.team-item {
+  margin-top: 2.8rem;
+  border: 1px solid #bdbdbd;
+  padding: 24px 32px 35px 32px;
+  min-height: 43.2rem;
+  
+  &__title {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 28px;
+    font-weight: 600;
+    color: #000000;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content-side {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+}

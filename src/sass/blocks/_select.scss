@@ -1,0 +1,90 @@
+.select {
+  display: flex;
+  position: relative;
+  width: 100%;
+  &__title {
+    display: flex;
+    color: #757575;
+    cursor: pointer;
+    span {
+      margin-right: 1.9rem;
+    }
+  }
+  &__value {
+    position: relative;
+    padding: 0 12px 2px 0;
+    display: block;
+    width: 13.8rem;
+    color: #000;
+    &::before {
+      content: '';
+      transition: all 0.3s linear;
+      width: 0;
+      bottom: 0;
+      position: absolute;
+      height: 1px;
+      background: transparent;  
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        border-style: solid;
+        border-width: 7px 5px 0 5px;
+        border-color: #676767 transparent transparent transparent;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        transition: all 0.2s linear;
+    }
+    &:hover {
+      &::after {
+        border-color: $mainColor transparent transparent transparent;
+      }
+      &::before {
+        width: 100%;
+        background: $mainColor;
+      }
+    }
+    &_open {
+      &::after {
+        transform: translateY(-50%) rotate(180deg);
+      }
+    }
+  }
+  &__items {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    left: 6.5rem;
+    top: 1.7rem;
+    height: 100%;
+    background: #fff;
+    flex-direction: column;
+    width: 13.8rem;
+    height: auto;
+    border: 1px solid $mainColor;
+    transition: all 0.3s ease-in-out;    
+    &_open {
+      visibility: visible;
+      height: auto;
+      opacity: 1;
+    }
+  }
+  &__item {
+    color: #000000;
+    cursor: pointer;
+    padding: 1rem;
+    display: block;
+    margin: 0;
+    transition: all 0.3s linear;
+    &:hover {
+      background: $mainColor;
+      color: #fff;
+    }
+    input {
+      display: none;
+    }
+  }
+}

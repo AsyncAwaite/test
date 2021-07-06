@@ -1,0 +1,67 @@
+.header-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  &__user {
+    display: flex;
+    align-items: center;
+    margin-right: 6.5rem;
+  }
+  &__user-name,
+  &__user-avatar,
+  &__prop,
+  &__exit {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  &__user-avatar {
+    display: inline-block;
+    margin-right: 17px;
+    img {
+      width: 4.6rem;
+      height: 4.6rem;
+      display: block;
+      border-radius: 100%;
+      border: 1px solid #5d4382;
+    }
+  }
+  &__user-name {
+    font-weight: 400;
+    color: #000;
+    &:hover {
+      color: $mainColor;
+      text-decoration: none;
+    }
+  }
+  &__prop,
+  &__exit {
+    svg {
+      path {
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    
+  }
+  &__prop {
+    margin-right: 3.1rem;
+    &:hover {
+      svg {
+        path {
+          fill: $mainColor;
+        }
+      }
+    }
+  }
+  &__exit {
+    &:hover {
+      svg {
+        path {
+          stroke: $mainColor;
+        }
+      }
+    }
+  }
+}

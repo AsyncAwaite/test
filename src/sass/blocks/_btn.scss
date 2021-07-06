@@ -1,0 +1,23 @@
+.btn {
+  &__open-sidebar {
+    display: none;
+    position: fixed;
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    width: 4rem;
+    height: 4rem;
+    background: $mainColor;
+    border: none;
+    border-radius: 100%;
+    svg {
+      transform: rotate(270deg) translateY(9px);
+    }
+    &:focus, &:active {
+      border: none;
+      outline: none;
+    }
+ 
+  }
+}

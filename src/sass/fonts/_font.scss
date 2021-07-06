@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "ZonaPro";
+  src: url("ZonaPro-Bold.eot");
+  src: local("ZonaPro-Bold"),
+    url("../fonts/ZonaPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ZonaPro-Bold.woff2") format("woff2"),
+    url("../fonts/ZonaPro-Bold.woff") format("woff"),
+    url("../fonts/ZonaPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ZonaPro";
+  src: url("ZonaPro-SemiBold.eot");
+  src: local("ZonaPro-SemiBold"),
+    url("../fonts/ZonaPro-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ZonaPro-SemiBold.woff2") format("woff2"),
+    url("../fonts/ZonaPro-SemiBold.woff") format("woff"),
+    url("../fonts/ZonaPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ZonaPro";
+  src: url("ZonaPro-Regular.eot");
+  src: local("ZonaPro-Regular"),
+    url("../fonts/ZonaPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ZonaPro-Regular.woff2") format("woff2"),
+    url("../fonts/ZonaPro-Regular.woff") format("woff"),
+    url("../fonts/ZonaPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

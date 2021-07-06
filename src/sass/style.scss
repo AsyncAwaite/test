@@ -1,0 +1,56 @@
+@import "libs/bootstrap-reboot.min";
+@import "base/variables";
+@import "fonts/font";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+ font-size: 10px; 
+}
+body {
+  font-family: "ZonaPro", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: normal;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page {
+  position: relative;
+  width: 100%;
+}
+
+.hide {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+@import "blocks/header";
+@import "blocks/header-nav";
+@import "blocks/sidebar";
+@import "blocks/menu";
+
+@import "blocks/main";
+@import "blocks/section";
+@import "blocks/select";
+@import "blocks/team-item";
+@import "blocks/desc";
+@import "blocks/btn";
+@import "blocks/media";
+
+
+
+

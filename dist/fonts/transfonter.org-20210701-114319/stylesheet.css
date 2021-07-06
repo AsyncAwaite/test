@@ -1,0 +1,28 @@
+
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-Bold_1.eot');
+    src: local('ZonaPro-Bold'),
+        url('ZonaPro-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-Bold_1.woff2') format('woff2'),
+        url('ZonaPro-Bold_1.woff') format('woff'),
+        url('ZonaPro-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-Bold_2.eot');
+    src: local('ZonaPro-Bold'),
+        url('ZonaPro-Bold_2.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-Bold_2.woff2') format('woff2'),
+        url('ZonaPro-Bold_2.woff') format('woff'),
+        url('ZonaPro-Bold_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

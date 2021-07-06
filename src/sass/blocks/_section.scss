@@ -1,0 +1,50 @@
+.section {
+  padding: 2.7rem 3rem;
+  padding-bottom: 11.5rem;
+  &__title {
+    font-weight: 700;
+    color: $mainColor;
+    font-size: 2.4rem;
+    line-height: 28px;
+  }
+  &__tabs {
+    margin-top: 2.6rem;
+  }
+  &__tab-button {
+    display: inline-block;
+    color: #757575;
+    padding: 1.2rem 1.6rem;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background: $lightColor;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &_active {
+      background: $mainColor;
+      color: #ffffff;
+      font-weight: 600;
+      &:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: $mainColor;
+      }
+    }
+  
+  }
+  &__content {
+    max-width: 1920px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 6px 6px 10px rgba(218, 218, 218, 0.25);
+    padding: 25px 47px 25px 13px;
+  }
+  &_clients {
+    .section__content {
+     padding-left: 0;
+     border: none;
+     box-shadow: none;
+    }
+
+  } 
+
+}
